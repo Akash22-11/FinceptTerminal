@@ -4,6 +4,7 @@ Canonical list of every hub topic family, its owning producer, TTL, and refresh 
 
 Topic segments separate with `:`. The first segment is the domain; subsequent segments are domain-specific keys (symbol, provider, series id, …). Wildcard `*` matches a single segment.
 
+
 ## Market data (Phase 2 / 3)
 
 
