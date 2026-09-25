@@ -6,6 +6,7 @@ Topic segments separate with `:`. The first segment is the domain; subsequent se
 
 ## Market data (Phase 2 / 3)
 
+
 | Pattern | Producer | TTL | Min interval | Notes |
 |---|---|---|---|---|
 | `market:quote:<sym>` | `MarketDataService` | 5 s | 1 s | Single symbol quote |
