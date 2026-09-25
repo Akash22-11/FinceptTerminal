@@ -50,6 +50,7 @@ hub registrant for `ws:<exchange>:*`.
 | `dbnomics:<provider>:<dataset>:<series>` | `DBnomicsService` | 1 h | 60 s | Observations endpoint only |
 | `govdata:<provider>:<request_id>` | `GovDataService` | 1 h | 60 s | Gov open-data APIs |
 
+
 ## Broker account streams (Phase 7)
 
 Topic shape: `broker:<broker_id>:<account_id>:<channel>[:<sym>]`. When a
