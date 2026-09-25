@@ -21,6 +21,7 @@ Producer changed to `ExchangeSessionManager` with the multi-broker refactor
 fan-out data to the manager via `SessionPublisher`; the manager is the sole
 hub registrant for `ws:<exchange>:*`.
 
+
 | Pattern | Producer | TTL | Notes |
 |---|---|---|---|
 | `ws:kraken:ticker:<pair>` | `ExchangeSessionManager` | push-only | Coalesced 50 ms |
