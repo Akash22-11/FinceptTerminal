@@ -58,6 +58,7 @@ caller has no explicit account id, it passes `default` — single-account
 and multi-account code paths share one format. Build topics via
 `fincept::trading::broker_topic()` in `src/trading/BrokerTopic.h`.
 
+
 | Pattern | Producer | TTL | Min interval | Notes |
 |---|---|---|---|---|
 | `broker:*:*:positions` | `DataStreamManager` | 5 s | 3 s | Open positions for one account |
