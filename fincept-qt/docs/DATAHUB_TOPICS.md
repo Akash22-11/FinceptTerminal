@@ -75,6 +75,7 @@ plan's risk-mitigation cadence).
 
 ## Geopolitics / Maritime / Corporate (Phase 8)
 
+
 ### Geopolitics
 
 | Pattern | Producer | TTL | Min interval | Notes |
