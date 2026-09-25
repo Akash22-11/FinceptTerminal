@@ -10,7 +10,6 @@ Topic segments separate with `:`. The first segment is the domain; subsequent se
 
 | Pattern | Producer | TTL | Min interval | Notes |
 |---|---|---|---|---|
-
 | `market:quote:<sym>` | `MarketDataService` | 5 s | 1 s | Single symbol quote |
 | `market:sparkline:<sym>` | `MarketDataService` | 60 s | 5 s | Intraday sparkline points |
 | `market:history:<sym>:<period>:<interval>` | `MarketDataService` | 300 s | 30 s | Bar history |
